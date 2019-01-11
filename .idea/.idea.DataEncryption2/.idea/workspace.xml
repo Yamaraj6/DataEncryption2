@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a010f974-af0f-4d80-a9a6-abaadad3f72a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Integration/BehaviorDesigner.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Integration/PlayMaker.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1367903629">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="164" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="164" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="326" column="9" selection-start-line="326" selection-start-column="9" selection-end-line="326" selection-end-column="9" />
+              <folding>
+                <marker date="1547195977745" expanded="false" signature="104:288" ph="..." />
+                <marker date="1547195977745" expanded="true" signature="329:13139" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="333:922" ph="/// Allows to detect Cheat Engine's speed hack (and maybe some other speed hack tools) usage. ... " />
+                <marker date="1547195977745" expanded="true" signature="1139:13137" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="1670:2472" ph="public fields" />
+                <marker date="1547195977745" expanded="true" signature="1694:1774" ph="/// Time (in seconds) between detector checks. ... " />
+                <marker date="1547195977745" expanded="true" signature="1866:1971" ph="/// Maximum false positives count allowed before registering speed hack. ... " />
+                <marker date="1547195977745" expanded="true" signature="2096:2268" ph="/// Amount of sequential successful checks before clearing internal false positives counter.&lt;br/&gt; ... " />
+                <marker date="1547195977745" expanded="true" signature="2476:2755" ph="private variables" />
+                <marker date="1547195977745" expanded="false" signature="2759:6943" ph="public static methods" />
+                <marker date="1547195977745" expanded="true" signature="2791:2970" ph="/// Starts speed hack detection. ... " />
+                <marker date="1547195977745" expanded="true" signature="3008:3294" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="3037:3156" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="3164:3290" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="3298:3606" ph="/// Starts speed hack detection with specified callback. ... " />
+                <marker date="1547195977745" expanded="true" signature="3664:3731" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="3735:4180" ph="/// Starts speed hack detection with specified callback using passed interval.&lt;br/&gt; ... " />
+                <marker date="1547195977745" expanded="true" signature="4254:4340" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="4344:4932" ph="/// Starts speed hack detection with specified callback using passed interval and maxFalsePositives.&lt;br/&gt; ... " />
+                <marker date="1547195977745" expanded="true" signature="5030:5126" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="5130:5872" ph="/// Starts speed hack detection with specified callback using passed interval, maxFalsePositives and coolDown.  ... " />
+                <marker date="1547195977745" expanded="true" signature="5984:6088" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="6092:6232" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+                <marker date="1547195977745" expanded="true" signature="6269:6336" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="6340:6838" ph="/// Stops and completely disposes detector component. ... " />
+                <marker date="1547195977745" expanded="true" signature="6869:6930" ph="{...}" />
+                <marker date="1547195977745" expanded="false" signature="6947:7471" ph="static instance" />
+                <marker date="1547195977745" expanded="true" signature="6973:7067" ph="/// Allows reaching public properties from code. Can be null. ... " />
+                <marker date="1547195977745" expanded="true" signature="7188:7458" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="7199:7454" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="7289:7359" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="7543:10908" ph="unity messages" />
+                <marker date="1547195977745" expanded="true" signature="7674:7858" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="7740:7771" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="7983:8035" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8127:8163" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8381:8578" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8414:8480" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8439:8475" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8488:8574" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8533:8569" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8711:8767" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8730:8763" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="8878:10895" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="9100:9145" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="9816:10382" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="9901:10105" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="10114:10377" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="10437:10860" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="10692:10855" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="11034:12192" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="11056:11145" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="11163:11327" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="11382:11639" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="11695:11932" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="12249:12329" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="12374:12404" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="12448:12547" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="12598:12705" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="12750:12827" ph="{...}" />
+                <marker date="1547195977745" expanded="true" signature="12861:13134" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ActDetectorBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="257" column="30" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="30" />
+              <folding>
+                <marker date="1547195977741" expanded="false" signature="6:78" ph="..." />
+                <marker date="1547195977741" expanded="true" signature="119:8543" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="123:187" ph="/// Base class for all detectors. ... " />
+                <marker date="1547195977741" expanded="true" signature="266:8541" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="558:890" ph="/// Allows to start detector automatically. ... " />
+                <marker date="1547195977741" expanded="true" signature="1016:1553" ph="/// Detector will survive new level (scene) load if checked. Otherwise it will be destroyed. ... " />
+                <marker date="1547195977741" expanded="true" signature="1661:2248" ph="/// Detector component will be automatically disposed after firing callback if enabled. ... " />
+                <marker date="1547195977741" expanded="true" signature="2581:2668" ph="/// Allows to check if detection is currently running. ... " />
+                <marker date="1547195977741" expanded="true" signature="2692:2729" ph="{...}" />
+                <marker date="1547195977741" expanded="false" signature="2733:6169" ph="detectors placement" />
+                <marker date="1547195977741" expanded="true" signature="2900:3087" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="3233:3287" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="3447:3508" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="3654:3708" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="3852:3905" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="4057:4114" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="4189:5851" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="4300:5393" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="4358:4558" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="4567:5388" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="4939:5382" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="5046:5116" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="5401:5847" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="5486:5636" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="5926:6149" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="6040:6094" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="6102:6145" ph="{...}" />
+                <marker date="1547195977741" expanded="false" signature="6173:7517" ph="unity messages" />
+                <marker date="1547195977741" expanded="true" signature="6304:6507" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="6380:6427" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="6458:6503" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="6620:6774" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="6888:6941" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="7063:7093" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="7217:7504" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="7336:7371" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="7465:7500" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="7595:7923" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="7666:7868" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="7967:7993" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="8052:8077" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="8123:8342" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="8258:8291" ph="{...}" />
+                <marker date="1547195977741" expanded="true" signature="8299:8338" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Rotate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding>
+                <marker date="1547203935644" expanded="false" signature="6:78" ph="..." />
+                <marker date="1547203935644" expanded="true" signature="115:206" ph="{...}" />
+                <marker date="1547203935644" expanded="true" signature="135:204" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/SpeedDetector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <marker date="1547225961728" expanded="false" signature="6:114" ph="..." />
+                <marker date="1547225961728" expanded="true" signature="158:1725" ph="{...}" />
+                <marker date="1547225961728" expanded="true" signature="682:1478" ph="{...}" />
+                <marker date="1547225961728" expanded="true" signature="868:909" ph="{...}" />
+                <marker date="1547225961728" expanded="true" signature="1369:1445" ph="{...}" />
+                <marker date="1547225961728" expanded="true" signature="1511:1723" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onti</find>
+      <find>on</find>
+      <find>spee</find>
+      <find>onspee</find>
+      <find>class</find>
+      <find>speed</find>
+      <find>onspeed</find>
+      <find>update</find>
+      <find>prevTicks</find>
+      <find>ResetStartTicks</find>
+      <find>ticksOnStart</find>
+      <find>vulnerableTicksOnStart</find>
+      <find>OnCheatingDetected</find>
+      <find>currentFalsePositives</find>
+      <find>maxFalsePositives</find>
+      <find>prevtic</find>
+      <find>prevIntervalTicks</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Scripts/ActRotatorExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ActDetectorBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpeedDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Scripts/ActTesterGui.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Rotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpeedDetector.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1739" />
+    <option name="y" value="104" />
+    <option name="width" value="1780" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="ActTesterGui&#9;FILE&#9;file://C:/Users/Michał/Documents/DataEncryption2/Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Scripts/ActTesterGui.cs&#10;actte&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="4492">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="4492" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a010f974-af0f-4d80-a9a6-abaadad3f72a" name="Default Changelist" comment="" />
+      <created>1547197486938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547197486938</updated>
+      <workItem from="1547197488728" duration="8815000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8815000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1739" y="104" width="1780" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14883721" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.12814896" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Scripts/ActTesterGui.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="94" column="29" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="29" />
+          <folding>
+            <marker date="1547195977712" expanded="true" signature="6:400" ph="..." />
+            <marker date="1547195977712" expanded="true" signature="440:29017" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="509:28489" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="610:1325" ph="ObscuredPrefs example constants" />
+            <marker date="1547195977712" expanded="true" signature="2317:2584" ph="/* This is a small trick - it allows to hide your encryption key ... */" />
+            <marker date="1547195977712" expanded="true" signature="3353:4580" ph="detectors callbacks" />
+            <marker date="1547195977712" expanded="true" signature="3383:3512" ph="/* These methods are get called by the Detection Events of detectors placed at the ... */" />
+            <marker date="1547195977712" expanded="true" signature="3548:3623" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="3663:3805" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="3843:3928" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="4022:4096" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="4213:4303" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="4358:4453" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="4489:4567" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="4584:4694" ph="/* this is needed to avoid ObscuredPrefs crypto key reset on scripts reload ... */" />
+            <marker date="1547195977712" expanded="true" signature="4722:4806" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="4831:5191" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="5216:8662" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="6323:8658" ph="detectors examples" />
+            <marker date="1547195977712" expanded="true" signature="6353:7828" ph="/* Since ACTk v1.5 all detectors have auto start option enabled by default, so you don't need to ... */" />
+            <marker date="1547195977712" expanded="true" signature="7889:8160" ph="/* and it may be started as usual, with parameterless callback... ... */" />
+            <marker date="1547195977712" expanded="true" signature="8172:8435" ph="/* We can change all options of any detectors from code like this: ... */" />
+            <marker date="1547195977712" expanded="true" signature="8702:8926" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="8966:9518" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="9555:10520" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="10559:11424" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="11465:12073" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="12115:12158" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="12197:12237" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="12261:23404" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="12772:16433" ph="{...}" />
+            <marker date="1547195977712" expanded="false" signature="12778:16428" ph="obscured types tab" />
+            <marker date="1547195977712" expanded="true" signature="13061:16417" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="13276:16411" ph="{...}" />
+            <marker date="1547195977712" expanded="false" signature="13473:14215" ph="string" />
+            <marker date="1547195977712" expanded="true" signature="13551:13853" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="13689:13761" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="13799:13845" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="13891:14204" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="14038:14111" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="14149:14196" ph="{...}" />
+            <marker date="1547195977712" expanded="false" signature="14217:14916" ph="int" />
+            <marker date="1547195977712" expanded="true" signature="14292:14574" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="14424:14486" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="14524:14566" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="14612:14905" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="14753:14816" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="14854:14897" ph="{...}" />
+            <marker date="1547195977712" expanded="false" signature="14918:15639" ph="float" />
+            <marker date="1547195977712" expanded="true" signature="14995:15287" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="15131:15197" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="15235:15279" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="15325:15628" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="15470:15537" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="15575:15620" ph="{...}" />
+            <marker date="1547195977712" expanded="false" signature="15641:16404" ph="Vector3" />
+            <marker date="1547195977712" expanded="true" signature="15720:16032" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="15860:15929" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="15967:16024" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="16070:16393" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="16219:16289" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="16327:16385" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="16462:20343" ph="{...}" />
+            <marker date="1547195977712" expanded="false" signature="16468:20338" ph="obscured prefs tab" />
+            <marker date="1547195977712" expanded="true" signature="16801:20327" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="16962:20321" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17108:17903" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17328:17374" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17412:17895" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17519:17886" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17569:17781" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17620:17675" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17715:17770" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17822:17876" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="17964:20288" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="18201:18248" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="18287:20280" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="18395:20271" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="18445:18659" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="18496:18552" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="18592:18648" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="18700:18755" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="18796:18867" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="19227:19371" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="19411:19537" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="19577:19712" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="19769:19898" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="20351:23376" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="20645:23371" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="23450:24429" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="23599:24345" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="23803:24340" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="24011:24155" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="24046:24095" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="24106:24148" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="24197:24271" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="24281:24334" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="24353:24400" ph="{...}" />
+            <marker date="1547195977712" expanded="false" signature="24431:28388" ph="prefs stuff" />
+            <marker date="1547195977712" expanded="true" signature="24498:24905" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="24940:25189" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="25224:25397" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="25434:25581" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="25617:26839" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="26875:27763" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="27801:28377" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="28424:28483" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="28537:28713" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="28600:28647" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="28672:28710" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="28759:29015" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="28820:28865" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="28906:28949" ph="{...}" />
+            <marker date="1547195977712" expanded="true" signature="28974:29012" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Scripts/ActRotatorExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1547195977711" expanded="true" signature="58:342" ph="{...}" />
+            <marker date="1547195977711" expanded="true" signature="205:340" ph="{...}" />
+            <marker date="1547195977711" expanded="true" signature="280:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ActDetectorBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="257" column="30" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="30" />
+          <folding>
+            <marker date="1547195977741" expanded="false" signature="6:78" ph="..." />
+            <marker date="1547195977741" expanded="true" signature="119:8543" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="123:187" ph="/// Base class for all detectors. ... " />
+            <marker date="1547195977741" expanded="true" signature="266:8541" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="558:890" ph="/// Allows to start detector automatically. ... " />
+            <marker date="1547195977741" expanded="true" signature="1016:1553" ph="/// Detector will survive new level (scene) load if checked. Otherwise it will be destroyed. ... " />
+            <marker date="1547195977741" expanded="true" signature="1661:2248" ph="/// Detector component will be automatically disposed after firing callback if enabled. ... " />
+            <marker date="1547195977741" expanded="true" signature="2581:2668" ph="/// Allows to check if detection is currently running. ... " />
+            <marker date="1547195977741" expanded="true" signature="2692:2729" ph="{...}" />
+            <marker date="1547195977741" expanded="false" signature="2733:6169" ph="detectors placement" />
+            <marker date="1547195977741" expanded="true" signature="2900:3087" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="3233:3287" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="3447:3508" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="3654:3708" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="3852:3905" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="4057:4114" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="4189:5851" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="4300:5393" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="4358:4558" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="4567:5388" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="4939:5382" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="5046:5116" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="5401:5847" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="5486:5636" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="5926:6149" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="6040:6094" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="6102:6145" ph="{...}" />
+            <marker date="1547195977741" expanded="false" signature="6173:7517" ph="unity messages" />
+            <marker date="1547195977741" expanded="true" signature="6304:6507" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="6380:6427" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="6458:6503" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="6620:6774" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="6888:6941" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="7063:7093" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="7217:7504" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="7336:7371" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="7465:7500" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="7595:7923" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="7666:7868" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="7967:7993" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="8052:8077" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="8123:8342" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="8258:8291" ph="{...}" />
+            <marker date="1547195977741" expanded="true" signature="8299:8338" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Rotate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <marker date="1547203935644" expanded="false" signature="6:78" ph="..." />
+            <marker date="1547203935644" expanded="true" signature="115:206" ph="{...}" />
+            <marker date="1547203935644" expanded="true" signature="135:204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="326" column="9" selection-start-line="326" selection-start-column="9" selection-end-line="326" selection-end-column="9" />
+          <folding>
+            <marker date="1547195977745" expanded="false" signature="104:288" ph="..." />
+            <marker date="1547195977745" expanded="true" signature="329:13139" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="333:922" ph="/// Allows to detect Cheat Engine's speed hack (and maybe some other speed hack tools) usage. ... " />
+            <marker date="1547195977745" expanded="true" signature="1139:13137" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="1670:2472" ph="public fields" />
+            <marker date="1547195977745" expanded="true" signature="1694:1774" ph="/// Time (in seconds) between detector checks. ... " />
+            <marker date="1547195977745" expanded="true" signature="1866:1971" ph="/// Maximum false positives count allowed before registering speed hack. ... " />
+            <marker date="1547195977745" expanded="true" signature="2096:2268" ph="/// Amount of sequential successful checks before clearing internal false positives counter.&lt;br/&gt; ... " />
+            <marker date="1547195977745" expanded="true" signature="2476:2755" ph="private variables" />
+            <marker date="1547195977745" expanded="false" signature="2759:6943" ph="public static methods" />
+            <marker date="1547195977745" expanded="true" signature="2791:2970" ph="/// Starts speed hack detection. ... " />
+            <marker date="1547195977745" expanded="true" signature="3008:3294" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="3037:3156" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="3164:3290" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="3298:3606" ph="/// Starts speed hack detection with specified callback. ... " />
+            <marker date="1547195977745" expanded="true" signature="3664:3731" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="3735:4180" ph="/// Starts speed hack detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1547195977745" expanded="true" signature="4254:4340" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="4344:4932" ph="/// Starts speed hack detection with specified callback using passed interval and maxFalsePositives.&lt;br/&gt; ... " />
+            <marker date="1547195977745" expanded="true" signature="5030:5126" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="5130:5872" ph="/// Starts speed hack detection with specified callback using passed interval, maxFalsePositives and coolDown.  ... " />
+            <marker date="1547195977745" expanded="true" signature="5984:6088" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="6092:6232" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+            <marker date="1547195977745" expanded="true" signature="6269:6336" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="6340:6838" ph="/// Stops and completely disposes detector component. ... " />
+            <marker date="1547195977745" expanded="true" signature="6869:6930" ph="{...}" />
+            <marker date="1547195977745" expanded="false" signature="6947:7471" ph="static instance" />
+            <marker date="1547195977745" expanded="true" signature="6973:7067" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1547195977745" expanded="true" signature="7188:7458" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="7199:7454" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="7289:7359" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="7543:10908" ph="unity messages" />
+            <marker date="1547195977745" expanded="true" signature="7674:7858" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="7740:7771" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="7983:8035" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8127:8163" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8381:8578" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8414:8480" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8439:8475" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8488:8574" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8533:8569" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8711:8767" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8730:8763" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="8878:10895" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="9100:9145" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="9816:10382" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="9901:10105" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="10114:10377" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="10437:10860" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="10692:10855" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="11034:12192" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="11056:11145" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="11163:11327" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="11382:11639" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="11695:11932" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="12249:12329" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="12374:12404" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="12448:12547" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="12598:12705" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="12750:12827" ph="{...}" />
+            <marker date="1547195977745" expanded="true" signature="12861:13134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpeedDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <marker date="1547225961728" expanded="false" signature="6:114" ph="..." />
+            <marker date="1547225961728" expanded="true" signature="158:1725" ph="{...}" />
+            <marker date="1547225961728" expanded="true" signature="682:1478" ph="{...}" />
+            <marker date="1547225961728" expanded="true" signature="868:909" ph="{...}" />
+            <marker date="1547225961728" expanded="true" signature="1369:1445" ph="{...}" />
+            <marker date="1547225961728" expanded="true" signature="1511:1723" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
