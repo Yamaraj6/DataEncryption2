@@ -4,20 +4,14 @@
     <list default="true" id="84622759-0525-42e0-b09d-6c9c4ca4efa2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataEncryption/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataEncryption/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataEncryption/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataEncryption/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HashFloat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HashInt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HashFloat.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HashInt.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hashtest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hashtest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/SpeedHackDetectorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/SpeedHackDetectorEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/0e/0e7b16b60d9512a4fab0382e8caec681" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0e/0e7b16b60d9512a4fab0382e8caec681" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/99/99c9720ab356a0642a771bea13969a05" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/99/99c9720ab356a0642a771bea13969a05" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,160 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ObscuredBool.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredBool.cs">
+      <file leaf-file-name="FormerlySerializedAsAttribute.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F14D49E-DC70-4940-AEE5-57642343F344/c3/12768c56/FormerlySerializedAsAttribute.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding>
-                <marker date="1508925614000" expanded="false" signature="6:100" ph="..." />
-                <marker date="1508925614000" expanded="true" signature="149:361" ph="/// Use it instead of regular &lt;c&gt;bool&lt;/c&gt; for any cheating-sensitive variables. ... " />
-                <marker date="1508925614000" expanded="true" signature="432:7223" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="939:1202" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="1206:1455" ph="/// Allows to change default crypto key of this type instances. All new instances will use specified key.&lt;br/&gt; ... " />
-                <marker date="1508925614000" expanded="true" signature="1505:1536" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="1540:1662" ph="/// Use this simple encryption method to encrypt any bool value, uses default crypto key. ... " />
-                <marker date="1508925614000" expanded="true" signature="1702:1739" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="1743:1864" ph="/// Use this simple encryption method to encrypt any bool value, uses passed crypto key. ... " />
-                <marker date="1508925614000" expanded="true" signature="1914:2068" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="1935:1966" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="2072:2183" ph="/// Use it to decrypt int you got from Encrypt(bool), uses default crypto key. ... " />
-                <marker date="1508925614000" expanded="true" signature="2223:2260" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="2264:2374" ph="/// Use it to decrypt int you got from Encrypt(bool), uses passed crypto key. ... " />
-                <marker date="1508925614000" expanded="true" signature="2424:2523" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="2445:2476" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="2527:2647" ph="/// Use it after SetNewCryptoKey() to re-encrypt current instance using new crypto key. ... " />
-                <marker date="1508925614000" expanded="true" signature="2681:2828" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="2723:2824" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="2832:3112" ph="/// Allows to change current crypto key to the new random value and re-encrypt variable using it. ... " />
-                <marker date="1508925614000" expanded="true" signature="3147:3350" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="3354:3537" ph="/// Allows to pick current obscured value as is. ... " />
-                <marker date="1508925614000" expanded="true" signature="3565:3620" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="3624:3819" ph="/// Allows to explicitly set current obscured value. ... " />
-                <marker date="1508925614000" expanded="true" signature="3861:4173" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="3942:3986" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="4049:4122" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="4130:4169" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="4177:4388" ph="/// Alternative to the type cast, use if you wish to get decrypted value  ... " />
-                <marker date="1508925614000" expanded="true" signature="4417:4454" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="4488:4983" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="4508:4676" ph="{...}" />
-                <marker date="1508925614000" expanded="true" signature="4877:4957" ph="{...}" />
-                <marker date="1508925614000" expanded="false" signature="4987:7220" ph="operators, overrides, interface implementations" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObscuredCheatingDetector.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ObscuredCheatingDetector.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <marker date="1508925635000" expanded="false" signature="29:177" ph="..." />
-                <marker date="1508925635000" expanded="true" signature="222:974" ph="/// Detects cheating of any Obscured type (except \link ObscuredTypes.ObscuredPrefs ObscuredPrefs\endlink, it has ... " />
-                <marker date="1508925635000" expanded="true" signature="1205:8219" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="1416:2916" ph="public fields" />
-                <marker date="1508925635000" expanded="true" signature="1440:1630" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredFloat ObscuredFloat\e ... " />
-                <marker date="1508925635000" expanded="true" signature="1800:1994" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector2 ObscuredVecto ... " />
-                <marker date="1508925635000" expanded="true" signature="2165:2359" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector3 ObscuredVecto ... " />
-                <marker date="1508925635000" expanded="true" signature="2530:2730" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredQuaternion ObscuredQu ... " />
-                <marker date="1508925635000" expanded="true" signature="2920:4713" ph="public static methods" />
-                <marker date="1508925635000" expanded="true" signature="2952:3148" ph="/// Starts all Obscured types cheating detection. ... " />
-                <marker date="1508925635000" expanded="true" signature="3186:3406" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="3215:3268" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="3276:3402" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="3410:3735" ph="/// Starts all Obscured types cheating detection with specified callback. ... " />
-                <marker date="1508925635000" expanded="true" signature="3793:3858" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="3862:4002" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
-                <marker date="1508925635000" expanded="true" signature="4039:4106" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="4110:4608" ph="/// Stops and completely disposes detector component. ... " />
-                <marker date="1508925635000" expanded="true" signature="4639:4700" ph="{...}" />
-                <marker date="1508925635000" expanded="false" signature="4717:5281" ph="static instance" />
-                <marker date="1508925635000" expanded="true" signature="5324:5458" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="5335:5454" ph="{...}" />
-                <marker date="1508925635000" expanded="false" signature="5536:6584" ph="unity messages" />
-                <marker date="1508925635000" expanded="true" signature="6645:7619" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="6667:6756" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="6774:6938" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="6993:7250" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="7306:7543" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="7676:7717" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="7760:7790" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="7834:7933" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="7984:8091" ph="{...}" />
-                <marker date="1508925635000" expanded="true" signature="8136:8213" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObscuredFloat.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredFloat.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3540">
-              <caret line="245" column="34" selection-start-line="245" selection-start-column="34" selection-end-line="245" selection-end-column="34" />
-              <folding>
-                <marker date="1508925613000" expanded="false" signature="6:172" ph="..." />
-                <marker date="1508925613000" expanded="true" signature="221:434" ph="/// Use it instead of regular &lt;c&gt;float&lt;/c&gt; for any cheating-sensitive variables. ... " />
-                <marker date="1508925613000" expanded="true" signature="521:10812" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="1138:1429" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="1433:1682" ph="/// Allows to change default crypto key of this type instances. All new instances will use specified key.&lt;br/&gt; ... " />
-                <marker date="1508925613000" expanded="true" signature="1731:1762" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="1766:1889" ph="/// Use this simple encryption method to encrypt any float value, uses default crypto key. ... " />
-                <marker date="1508925613000" expanded="true" signature="1930:1975" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="1979:2101" ph="/// Use this simple encryption method to encrypt any float value, uses passed crypto key. ... " />
-                <marker date="1508925613000" expanded="true" signature="2151:2248" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="2305:2350" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="2416:2610" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="2469:2507" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="2614:2740" ph="/// Use it to decrypt int you got from Encrypt(float) back to float, uses default crypto key. ... " />
-                <marker date="1508925613000" expanded="true" signature="2781:2826" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="2830:2955" ph="/// Use it to decrypt int you got from Encrypt(float) back to float, uses passed crypto key. ... " />
-                <marker date="1508925613000" expanded="true" signature="3005:3087" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="3091:3211" ph="/// Use it after SetNewCryptoKey() to re-encrypt current instance using new crypto key. ... " />
-                <marker date="1508925613000" expanded="true" signature="3245:3400" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="3287:3396" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="3404:3684" ph="/// Allows to change current crypto key to the new random value and re-encrypt variable using it. ... " />
-                <marker date="1508925613000" expanded="true" signature="3719:3942" ph="{...}" />
-                <marker date="1508925613000" expanded="false" signature="3946:4129" ph="/// Allows to pick current obscured value as is. ... " />
-                <marker date="1508925613000" expanded="true" signature="4157:4278" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="4282:4477" ph="/// Allows to explicitly set current obscured value. ... " />
-                <marker date="1508925613000" expanded="true" signature="4519:4896" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="4665:4709" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="4772:4845" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="4853:4892" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="4900:5111" ph="/// Alternative to the type cast, use if you wish to get decrypted value  ... " />
-                <marker date="1508925613000" expanded="true" signature="5141:5178" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="5213:5819" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="5233:5397" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="5713:5793" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="5835:10604" ph="operators, overrides, interface implementations" />
-                <marker date="1508925613000" expanded="true" signature="5951:5995" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="6057:6100" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="6164:6507" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="6355:6432" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="6440:6485" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="6571:6914" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="6762:6839" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="6847:6892" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="6918:7309" ph="/// Returns a value indicating whether this instance is equal to a specified object. ... " />
-                <marker date="1508925613000" expanded="true" signature="7351:7447" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="7451:7840" ph="/// Returns a value indicating whether this instance and a specified ObscuredFloat object represent the same valu ... " />
-                <marker date="1508925613000" expanded="true" signature="7880:8000" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="8004:8203" ph="/// Returns the hash code for this instance. ... " />
-                <marker date="1508925613000" expanded="true" signature="8239:8290" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="8294:8559" ph="/// Converts the numeric value of this instance to its equivalent string representation. ... " />
-                <marker date="1508925613000" expanded="true" signature="8595:8643" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="8647:9142" ph="/// Converts the numeric value of this instance to its equivalent string representation, using the specified form ... " />
-                <marker date="1508925613000" expanded="true" signature="9182:9236" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="9240:9733" ph="/// Converts the numeric value of this instance to its equivalent string representation using the specified cultu ... " />
-                <marker date="1508925613000" expanded="true" signature="9784:9840" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="9844:10445" ph="/// Converts the numeric value of this instance to its equivalent string representation using the specified forma ... " />
-                <marker date="1508925613000" expanded="true" signature="10511:10575" ph="{...}" />
-                <marker date="1508925613000" expanded="true" signature="10679:10809" ph="{...}" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -189,8 +34,8 @@
       <file leaf-file-name="TimeSpan.cs" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/00/cb893118/TimeSpan.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="3495">
+              <caret line="233" column="37" selection-start-line="233" selection-start-column="37" selection-end-line="233" selection-end-column="37" />
               <folding>
                 <marker date="1539200487939" expanded="true" signature="0:302" ph="/* Decompiled with JetBrains decompiler ... */" />
                 <marker date="1539200487939" expanded="true" signature="359:6931" ph="{...}" />
@@ -269,114 +114,163 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeCheatingDetectorEditor.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/TimeCheatingDetectorEditor.cs">
+      <file leaf-file-name="SpeedHackDetector.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="384">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
               <folding>
-                <marker date="1508925619000" expanded="false" signature="23:91" ph="..." />
-                <marker date="1508925619000" expanded="true" signature="141:964" ph="{...}" />
-                <marker date="1508925619000" expanded="true" signature="253:962" ph="{...}" />
-                <marker date="1508925619000" expanded="true" signature="409:533" ph="{...}" />
-                <marker date="1508925619000" expanded="true" signature="591:775" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="104:288" ph="..." />
+                <marker date="1547174538223" expanded="true" signature="329:13139" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="333:922" ph="/// Allows to detect Cheat Engine's speed hack (and maybe some other speed hack tools) usage. ... " />
+                <marker date="1547174538223" expanded="true" signature="1139:13137" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="1670:2472" ph="public fields" />
+                <marker date="1547174538223" expanded="true" signature="1694:1774" ph="/// Time (in seconds) between detector checks. ... " />
+                <marker date="1547174538223" expanded="true" signature="1866:1971" ph="/// Maximum false positives count allowed before registering speed hack. ... " />
+                <marker date="1547174538223" expanded="true" signature="2096:2268" ph="/// Amount of sequential successful checks before clearing internal false positives counter.&lt;br/&gt; ... " />
+                <marker date="1547174538223" expanded="true" signature="2476:2755" ph="private variables" />
+                <marker date="1547174538223" expanded="true" signature="2759:6943" ph="public static methods" />
+                <marker date="1547174538223" expanded="true" signature="2791:2970" ph="/// Starts speed hack detection. ... " />
+                <marker date="1547174538223" expanded="true" signature="3008:3294" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="3037:3156" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="3164:3290" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="3298:3606" ph="/// Starts speed hack detection with specified callback. ... " />
+                <marker date="1547174538223" expanded="true" signature="3664:3731" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="3735:4180" ph="/// Starts speed hack detection with specified callback using passed interval.&lt;br/&gt; ... " />
+                <marker date="1547174538223" expanded="true" signature="4254:4340" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="4344:4932" ph="/// Starts speed hack detection with specified callback using passed interval and maxFalsePositives.&lt;br/&gt; ... " />
+                <marker date="1547174538223" expanded="true" signature="5030:5126" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="5130:5872" ph="/// Starts speed hack detection with specified callback using passed interval, maxFalsePositives and coolDown.  ... " />
+                <marker date="1547174538223" expanded="true" signature="5984:6088" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="6092:6232" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+                <marker date="1547174538223" expanded="true" signature="6269:6336" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="6340:6838" ph="/// Stops and completely disposes detector component. ... " />
+                <marker date="1547174538223" expanded="true" signature="6869:6930" ph="{...}" />
+                <marker date="1547174538223" expanded="false" signature="6947:7471" ph="static instance" />
+                <marker date="1547174538223" expanded="true" signature="6973:7067" ph="/// Allows reaching public properties from code. Can be null. ... " />
+                <marker date="1547174538223" expanded="true" signature="7188:7458" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="7199:7454" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="7289:7359" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="7543:10908" ph="unity messages" />
+                <marker date="1547174538223" expanded="true" signature="7674:7858" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="7740:7771" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="7983:8035" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8127:8163" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8381:8578" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8414:8480" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8439:8475" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8488:8574" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8533:8569" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8711:8767" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8730:8763" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="8878:10895" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="9100:9145" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="9816:10382" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="9901:10105" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="10114:10377" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="10437:10860" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="10692:10855" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="11034:12192" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="11056:11145" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="11163:11327" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="11382:11639" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="11695:11932" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="12249:12329" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="12374:12404" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="12448:12547" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="12598:12705" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="12750:12827" ph="{...}" />
+                <marker date="1547174538223" expanded="true" signature="12861:13134" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeCheatingDetector.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/TimeCheatingDetector.cs">
+      <file leaf-file-name="SpeedHackDetectorEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/SpeedHackDetectorEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3150">
-              <caret line="422" column="21" selection-start-line="422" selection-start-column="21" selection-end-line="422" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
               <folding>
-                <marker date="1508925617000" expanded="false" signature="104:349" ph="..." />
-                <marker date="1508925617000" expanded="true" signature="401:1101" ph="/// Allows to detect time cheating using time servers. Needs internet connection. ... " />
-                <marker date="1508925617000" expanded="true" signature="1324:18370" ph="{...}" />
-                <marker date="1508925617000" expanded="false" signature="1820:2269" ph="public fields" />
-                <marker date="1508925617000" expanded="false" signature="2328:2726" ph="private fields" />
-                <marker date="1508925617000" expanded="false" signature="2730:6503" ph="public static methods" />
-                <marker date="1508925617000" expanded="false" signature="6507:7042" ph="static instance" />
-                <marker date="1508925617000" expanded="true" signature="7076:7084" ph="{...}" />
-                <marker date="1508925617000" expanded="false" signature="7121:8170" ph="Unity messages" />
-                <marker date="1508925617000" expanded="true" signature="8286:9424" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="8308:8391" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="8409:8578" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="8642:8909" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="8974:9221" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="9481:9538" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="9581:9611" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="9655:9754" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="9805:9947" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="9992:10135" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="10096:10131" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="10253:10335" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="10380:11376" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="10408:10550" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="10772:11200" ph="/* Debug.Log(&quot;Server time: &quot; + onlineTimeSpan.Hours + ':' + onlineTimeSpan.Minutes + ':' + onlineTimeSpan.Seconds ... */" />
-                <marker date="1508925617000" expanded="true" signature="11336:11372" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="11380:11772" ph="/// Retrieves NTP time from the specified time server, e.g. &quot;pool.ntp.org&quot;. ... " />
-                <marker date="1508925617000" expanded="true" signature="11824:12668" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="11835:12517" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="12548:12664" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="12672:13120" ph="/// Asynchronously retrieves NTP time from the specified time server, e.g. &quot;pool.ntp.org&quot;. ... " />
-                <marker date="1508925617000" expanded="true" signature="13193:14228" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="13204:14074" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="13298:13427" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="13671:13755" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="13785:13893" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="14105:14224" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="14301:14883" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="14350:14525" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="14602:14793" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="14951:15628" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="15028:15453" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="15087:15448" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="15123:15341" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="15461:15624" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="15699:16100" ph="{...}" />
-                <marker date="1508925617000" expanded="true" signature="16133:16205" ph="{...}" />
+                <marker date="1547174576755" expanded="true" signature="23:94" ph="..." />
+                <marker date="1547174576755" expanded="true" signature="144:921" ph="{...}" />
+                <marker date="1547174576755" expanded="true" signature="250:919" ph="{...}" />
+                <marker date="1547174576755" expanded="true" signature="472:669" ph="{...}" />
+                <marker date="1547174576755" expanded="true" signature="727:916" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashFloat.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/HashFloat.cs">
+      <file leaf-file-name="ActDetectorEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/ActDetectorEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="288">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
               <folding>
-                <marker date="1547103995702" expanded="false" signature="6:106" ph="..." />
-                <marker date="1547103995702" expanded="true" signature="182:1640" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="258:290" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="330:390" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="441:608" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="665:832" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="704:826" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="886:1073" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="1079:1638" ph="operators, overrides, interface implementations" />
-                <marker date="1547103995702" expanded="true" signature="1194:1243" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="1307:1407" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="1448:1502" ph="{...}" />
-                <marker date="1547103995702" expanded="true" signature="1577:1622" ph="{...}" />
+                <marker date="1508925625000" expanded="false" signature="23:91" ph="..." />
+                <marker date="1508925625000" expanded="true" signature="141:2497" ph="{...}" />
+                <marker date="1508925625000" expanded="true" signature="186:2495" ph="{...}" />
+                <marker date="1508925625000" expanded="true" signature="491:914" ph="{...}" />
+                <marker date="1508925625000" expanded="true" signature="955:2177" ph="{...}" />
+                <marker date="1508925625000" expanded="true" signature="1365:1550" ph="{...}" />
+                <marker date="1508925625000" expanded="true" signature="1584:1854" ph="{...}" />
+                <marker date="1508925625000" expanded="true" signature="2234:2258" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hashtest.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Hashtest.cs">
+      <file leaf-file-name="ActDetectorBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ActDetectorBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="766">
+              <caret line="258" column="9" selection-start-line="258" selection-start-column="9" selection-end-line="258" selection-end-column="9" />
               <folding>
-                <marker date="1547104186900" expanded="true" signature="6:152" ph="..." />
-                <marker date="1547104186900" expanded="true" signature="213:460" ph="{...}" />
-                <marker date="1547104186900" expanded="true" signature="299:405" ph="{...}" />
-                <marker date="1547104186900" expanded="true" signature="353:402" ph="{...}" />
-                <marker date="1547104186900" expanded="true" signature="430:458" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="6:78" ph="..." />
+                <marker date="1547173135352" expanded="true" signature="119:8543" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="123:187" ph="/// Base class for all detectors. ... " />
+                <marker date="1547173135352" expanded="true" signature="266:8541" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="558:890" ph="/// Allows to start detector automatically. ... " />
+                <marker date="1547173135352" expanded="true" signature="1016:1553" ph="/// Detector will survive new level (scene) load if checked. Otherwise it will be destroyed. ... " />
+                <marker date="1547173135352" expanded="true" signature="1661:2248" ph="/// Detector component will be automatically disposed after firing callback if enabled. ... " />
+                <marker date="1547173135352" expanded="true" signature="2581:2668" ph="/// Allows to check if detection is currently running. ... " />
+                <marker date="1547173135352" expanded="true" signature="2692:2729" ph="{...}" />
+                <marker date="1547173135352" expanded="false" signature="2733:6169" ph="detectors placement" />
+                <marker date="1547173135352" expanded="true" signature="2900:3087" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="3233:3287" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="3447:3508" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="3654:3708" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="3852:3905" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="4057:4114" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="4189:5851" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="4300:5393" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="4358:4558" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="4567:5388" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="4939:5382" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="5046:5116" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="5401:5847" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="5486:5636" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="5926:6149" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="6040:6094" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="6102:6145" ph="{...}" />
+                <marker date="1547173135352" expanded="false" signature="6173:7517" ph="unity messages" />
+                <marker date="1547173135352" expanded="true" signature="6304:6507" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="6380:6427" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="6458:6503" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="6620:6774" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="6888:6941" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="7063:7093" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="7217:7504" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="7336:7371" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="7465:7500" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="7595:7923" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="7666:7868" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="7967:7993" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="8052:8077" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="8123:8342" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="8258:8291" ph="{...}" />
+                <marker date="1547173135352" expanded="true" signature="8299:8338" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -401,6 +295,13 @@
       <find>(value)</find>
       <find>return val</find>
       <find>return</find>
+      <find>float</find>
+      <find>TICKS_PER_SECOND</find>
+      <find>detection</find>
+      <find>pool.ntp.org</find>
+      <find>time</find>
+      <find>text</find>
+      <find>coll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -409,19 +310,23 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/2d/675b1c98/IEquatable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredUInt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/ActDetectorEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EncryptedFloat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/TimeCheatingDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EncryptAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/SpeedHackDetectorEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ActDetectorBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Hashtest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ObscuredCheatingDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/00/cb893118/TimeSpan.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredBool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/72/d4c81ecd/SHA1CryptoServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/WallHackDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredFloat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F14D49E-DC70-4940-AEE5-57642343F344/c3/12768c56/FormerlySerializedAsAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/TimeCheatingDetectorEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HashFloat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HashInt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CUtils.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -434,6 +339,10 @@
         <option value="$PROJECT_DIR$/Assets/CUtils.cs" />
         <option value="$PROJECT_DIR$/Assets/HashFloat.cs" />
         <option value="$PROJECT_DIR$/Assets/Hashtest.cs" />
+        <option value="$PROJECT_DIR$/Assets/HashInt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ActDetectorBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/SpeedHackDetectorEditor.cs" />
       </list>
     </option>
   </component>
@@ -484,7 +393,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="ob&#9;FILE&#9;file://C:/Users/Alex/Documents/GitHubProjects/DataEncryption/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredFloat.cs&#10;encr&#9;FILE&#9;file://C:/Users/Alex/Documents/GitHubProjects/DataEncryption/Assets/EncryptedFloat.cs&#10;time&#9;null&#9;null&#10;Speed Hack Detector &#9;null&#9;null&#10;obscuredflo&#9;null&#9;null&#10;obsc&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="speed&#9;null&#9;null&#10;editor&#9;FILE&#9;file://C:/Users/Alex/Documents/GitHubProjects/DataEncryption/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/TimeCheatingDetectorEditor.cs&#10;spee&#9;FILE&#9;file://C:/Users/Alex/Documents/GitHubProjects/DataEncryption/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs&#10;ob&#9;FILE&#9;file://C:/Users/Alex/Documents/GitHubProjects/DataEncryption/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredFloat.cs&#10;encr&#9;FILE&#9;file://C:/Users/Alex/Documents/GitHubProjects/DataEncryption/Assets/EncryptedFloat.cs&#10;time&#9;null&#9;null&#10;Speed Hack Detector &#9;null&#9;null&#10;obscuredflo&#9;null&#9;null&#10;obsc&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
@@ -522,12 +431,12 @@
       <workItem from="1539198526287" duration="7710000" />
       <workItem from="1542046583779" duration="1188000" />
       <workItem from="1547070757175" duration="6455000" />
-      <workItem from="1547102916787" duration="1514000" />
+      <workItem from="1547102916787" duration="12570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21167000" />
+    <option name="totallyTimeSpent" value="32223000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,91 +489,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredBool.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <marker date="1508925614000" expanded="false" signature="6:100" ph="..." />
-            <marker date="1508925614000" expanded="true" signature="149:361" ph="/// Use it instead of regular &lt;c&gt;bool&lt;/c&gt; for any cheating-sensitive variables. ... " />
-            <marker date="1508925614000" expanded="true" signature="432:7223" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="939:1202" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="1206:1455" ph="/// Allows to change default crypto key of this type instances. All new instances will use specified key.&lt;br/&gt; ... " />
-            <marker date="1508925614000" expanded="true" signature="1505:1536" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="1540:1662" ph="/// Use this simple encryption method to encrypt any bool value, uses default crypto key. ... " />
-            <marker date="1508925614000" expanded="true" signature="1702:1739" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="1743:1864" ph="/// Use this simple encryption method to encrypt any bool value, uses passed crypto key. ... " />
-            <marker date="1508925614000" expanded="true" signature="1914:2068" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="1935:1966" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="2072:2183" ph="/// Use it to decrypt int you got from Encrypt(bool), uses default crypto key. ... " />
-            <marker date="1508925614000" expanded="true" signature="2223:2260" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="2264:2374" ph="/// Use it to decrypt int you got from Encrypt(bool), uses passed crypto key. ... " />
-            <marker date="1508925614000" expanded="true" signature="2424:2523" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="2445:2476" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="2527:2647" ph="/// Use it after SetNewCryptoKey() to re-encrypt current instance using new crypto key. ... " />
-            <marker date="1508925614000" expanded="true" signature="2681:2828" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="2723:2824" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="2832:3112" ph="/// Allows to change current crypto key to the new random value and re-encrypt variable using it. ... " />
-            <marker date="1508925614000" expanded="true" signature="3147:3350" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="3354:3537" ph="/// Allows to pick current obscured value as is. ... " />
-            <marker date="1508925614000" expanded="true" signature="3565:3620" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="3624:3819" ph="/// Allows to explicitly set current obscured value. ... " />
-            <marker date="1508925614000" expanded="true" signature="3861:4173" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="3942:3986" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="4049:4122" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="4130:4169" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="4177:4388" ph="/// Alternative to the type cast, use if you wish to get decrypted value  ... " />
-            <marker date="1508925614000" expanded="true" signature="4417:4454" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="4488:4983" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="4508:4676" ph="{...}" />
-            <marker date="1508925614000" expanded="true" signature="4877:4957" ph="{...}" />
-            <marker date="1508925614000" expanded="false" signature="4987:7220" ph="operators, overrides, interface implementations" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ObscuredCheatingDetector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <marker date="1508925635000" expanded="false" signature="29:177" ph="..." />
-            <marker date="1508925635000" expanded="true" signature="222:974" ph="/// Detects cheating of any Obscured type (except \link ObscuredTypes.ObscuredPrefs ObscuredPrefs\endlink, it has ... " />
-            <marker date="1508925635000" expanded="true" signature="1205:8219" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="1416:2916" ph="public fields" />
-            <marker date="1508925635000" expanded="true" signature="1440:1630" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredFloat ObscuredFloat\e ... " />
-            <marker date="1508925635000" expanded="true" signature="1800:1994" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector2 ObscuredVecto ... " />
-            <marker date="1508925635000" expanded="true" signature="2165:2359" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector3 ObscuredVecto ... " />
-            <marker date="1508925635000" expanded="true" signature="2530:2730" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredQuaternion ObscuredQu ... " />
-            <marker date="1508925635000" expanded="true" signature="2920:4713" ph="public static methods" />
-            <marker date="1508925635000" expanded="true" signature="2952:3148" ph="/// Starts all Obscured types cheating detection. ... " />
-            <marker date="1508925635000" expanded="true" signature="3186:3406" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="3215:3268" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="3276:3402" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="3410:3735" ph="/// Starts all Obscured types cheating detection with specified callback. ... " />
-            <marker date="1508925635000" expanded="true" signature="3793:3858" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="3862:4002" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
-            <marker date="1508925635000" expanded="true" signature="4039:4106" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="4110:4608" ph="/// Stops and completely disposes detector component. ... " />
-            <marker date="1508925635000" expanded="true" signature="4639:4700" ph="{...}" />
-            <marker date="1508925635000" expanded="false" signature="4717:5281" ph="static instance" />
-            <marker date="1508925635000" expanded="true" signature="5324:5458" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="5335:5454" ph="{...}" />
-            <marker date="1508925635000" expanded="false" signature="5536:6584" ph="unity messages" />
-            <marker date="1508925635000" expanded="true" signature="6645:7619" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="6667:6756" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="6774:6938" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="6993:7250" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="7306:7543" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="7676:7717" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="7760:7790" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="7834:7933" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="7984:8091" ph="{...}" />
-            <marker date="1508925635000" expanded="true" signature="8136:8213" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredFloat.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3540">
@@ -833,14 +657,48 @@
           <caret line="422" column="21" selection-start-line="422" selection-start-column="21" selection-end-line="422" selection-end-column="21" />
           <folding>
             <marker date="1508925617000" expanded="false" signature="104:349" ph="..." />
+            <marker date="1508925617000" expanded="true" signature="397:18372" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="401:1101" ph="/// Allows to detect time cheating using time servers. Needs internet connection. ... " />
             <marker date="1508925617000" expanded="true" signature="1324:18370" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="1820:2269" ph="public fields" />
+            <marker date="1508925617000" expanded="true" signature="1845:1925" ph="/// Time (in minutes) between detector checks. ... " />
+            <marker date="1508925617000" expanded="true" signature="2031:2139" ph="/// Maximum allowed difference between online and offline time, in minutes. ... " />
             <marker date="1508925617000" expanded="false" signature="2328:2726" ph="private fields" />
             <marker date="1508925617000" expanded="false" signature="2730:6503" ph="public static methods" />
+            <marker date="1508925617000" expanded="true" signature="2763:2931" ph="/// Starts detection. ... " />
+            <marker date="1508925617000" expanded="true" signature="2969:3208" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="2998:3076" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3084:3204" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3212:3629" ph="/// Starts detection with specified callback. ... " />
+            <marker date="1508925617000" expanded="true" signature="3730:3821" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3825:4257" ph="/// Starts detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1508925617000" expanded="true" signature="4338:4400" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="4404:4947" ph="/// Starts detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1508925617000" expanded="true" signature="5055:5154" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5158:5298" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+            <marker date="1508925617000" expanded="true" signature="5335:5402" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5406:5616" ph="/// Sets callback for errors during online time gathering process. ... " />
+            <marker date="1508925617000" expanded="true" signature="5681:5895" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5710:5762" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5770:5891" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5899:6397" ph="/// Stops and completely disposes detector component. ... " />
+            <marker date="1508925617000" expanded="true" signature="6428:6489" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="6507:7042" ph="static instance" />
+            <marker date="1508925617000" expanded="true" signature="6534:6628" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1508925617000" expanded="true" signature="6755:7028" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="6766:7024" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="6856:6926" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="7076:7084" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="7121:8170" ph="Unity messages" />
+            <marker date="1508925617000" expanded="true" signature="7252:7436" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7318:7349" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7561:7613" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7705:7741" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7959:8156" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7992:8058" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8017:8053" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8066:8152" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8111:8147" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8286:9424" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8308:8391" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8409:8578" ph="{...}" />
@@ -882,24 +740,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HashFloat.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/HashInt.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
-            <marker date="1547103995702" expanded="false" signature="6:106" ph="..." />
-            <marker date="1547103995702" expanded="true" signature="182:1640" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="258:290" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="330:390" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="441:608" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="665:832" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="704:826" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="886:1073" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="1079:1638" ph="operators, overrides, interface implementations" />
-            <marker date="1547103995702" expanded="true" signature="1194:1243" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="1307:1407" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="1448:1502" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="1577:1622" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="6:106" ph="..." />
+            <marker date="1547165413281" expanded="true" signature="165:1726" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="237:269" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="305:365" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="388:492" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="424:465" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="539:680" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="732:923" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="769:894" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="973:1134" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="1140:1724" ph="operators, overrides, interface implementations" />
+            <marker date="1547165413281" expanded="true" signature="1251:1380" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="1438:1531" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="1570:1624" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="1663:1708" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -917,6 +777,7 @@
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <marker date="1508925614000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1508925614000" expanded="true" signature="145:7225" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="149:361" ph="/// Use it instead of regular &lt;c&gt;bool&lt;/c&gt; for any cheating-sensitive variables. ... " />
             <marker date="1508925614000" expanded="true" signature="432:7223" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="939:1202" ph="{...}" />
@@ -950,6 +811,17 @@
             <marker date="1508925614000" expanded="true" signature="4508:4676" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="4877:4957" ph="{...}" />
             <marker date="1508925614000" expanded="false" signature="4987:7220" ph="operators, overrides, interface implementations" />
+            <marker date="1508925614000" expanded="true" signature="5113:5156" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5216:5259" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5263:5653" ph="/// Returns a value indicating whether this instance is equal to a specified object. ... " />
+            <marker date="1508925614000" expanded="true" signature="5695:5789" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5793:6174" ph="/// Returns a value indicating whether this instance is equal to a specified ObscuredBool value. ... " />
+            <marker date="1508925614000" expanded="true" signature="6213:6424" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6266:6319" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6428:6627" ph="/// Returns the hash code for this instance. ... " />
+            <marker date="1508925614000" expanded="true" signature="6663:6714" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6718:7107" ph="/// Converts the numeric value of this instance to its equivalent string representation. ... " />
+            <marker date="1508925614000" expanded="true" signature="7143:7191" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -960,6 +832,7 @@
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <marker date="1508925635000" expanded="false" signature="29:177" ph="..." />
+            <marker date="1508925635000" expanded="true" signature="218:8221" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="222:974" ph="/// Detects cheating of any Obscured type (except \link ObscuredTypes.ObscuredPrefs ObscuredPrefs\endlink, it has ... " />
             <marker date="1508925635000" expanded="true" signature="1205:8219" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="1416:2916" ph="public fields" />
@@ -967,7 +840,7 @@
             <marker date="1508925635000" expanded="true" signature="1800:1994" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector2 ObscuredVecto ... " />
             <marker date="1508925635000" expanded="true" signature="2165:2359" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector3 ObscuredVecto ... " />
             <marker date="1508925635000" expanded="true" signature="2530:2730" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredQuaternion ObscuredQu ... " />
-            <marker date="1508925635000" expanded="true" signature="2920:4713" ph="public static methods" />
+            <marker date="1508925635000" expanded="false" signature="2920:4713" ph="public static methods" />
             <marker date="1508925635000" expanded="true" signature="2952:3148" ph="/// Starts all Obscured types cheating detection. ... " />
             <marker date="1508925635000" expanded="true" signature="3186:3406" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="3215:3268" ph="{...}" />
@@ -979,9 +852,22 @@
             <marker date="1508925635000" expanded="true" signature="4110:4608" ph="/// Stops and completely disposes detector component. ... " />
             <marker date="1508925635000" expanded="true" signature="4639:4700" ph="{...}" />
             <marker date="1508925635000" expanded="false" signature="4717:5281" ph="static instance" />
+            <marker date="1508925635000" expanded="true" signature="4743:4837" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1508925635000" expanded="true" signature="4972:5268" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="4983:5264" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5074:5156" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="5324:5458" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="5335:5454" ph="{...}" />
             <marker date="1508925635000" expanded="false" signature="5536:6584" ph="unity messages" />
+            <marker date="1508925635000" expanded="true" signature="5667:5851" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5733:5764" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5976:6028" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6120:6156" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6374:6571" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6407:6473" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6432:6468" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6481:6567" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6526:6562" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6645:7619" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6667:6756" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6774:6938" ph="{...}" />
@@ -1162,6 +1048,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2175">
           <caret line="287" column="13" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="13" />
+          <folding>
+            <marker date="1547174538223" expanded="true" signature="104:288" ph="..." />
+            <marker date="1547174538223" expanded="true" signature="329:13139" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="333:922" ph="/// Allows to detect Cheat Engine's speed hack (and maybe some other speed hack tools) usage. ... " />
+            <marker date="1547174538223" expanded="true" signature="1139:13137" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="1670:2472" ph="public fields" />
+            <marker date="1547174538223" expanded="true" signature="1694:1774" ph="/// Time (in seconds) between detector checks. ... " />
+            <marker date="1547174538223" expanded="true" signature="1866:1971" ph="/// Maximum false positives count allowed before registering speed hack. ... " />
+            <marker date="1547174538223" expanded="true" signature="2096:2268" ph="/// Amount of sequential successful checks before clearing internal false positives counter.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="2476:2755" ph="private variables" />
+            <marker date="1547174538223" expanded="true" signature="2759:6943" ph="public static methods" />
+            <marker date="1547174538223" expanded="true" signature="2791:2970" ph="/// Starts speed hack detection. ... " />
+            <marker date="1547174538223" expanded="true" signature="3008:3294" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3037:3156" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3164:3290" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3298:3606" ph="/// Starts speed hack detection with specified callback. ... " />
+            <marker date="1547174538223" expanded="true" signature="3664:3731" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3735:4180" ph="/// Starts speed hack detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="4254:4340" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="4344:4932" ph="/// Starts speed hack detection with specified callback using passed interval and maxFalsePositives.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="5030:5126" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="5130:5872" ph="/// Starts speed hack detection with specified callback using passed interval, maxFalsePositives and coolDown.  ... " />
+            <marker date="1547174538223" expanded="true" signature="5984:6088" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="6092:6232" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+            <marker date="1547174538223" expanded="true" signature="6269:6336" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="6340:6838" ph="/// Stops and completely disposes detector component. ... " />
+            <marker date="1547174538223" expanded="true" signature="6869:6930" ph="{...}" />
+            <marker date="1547174538223" expanded="false" signature="6947:7471" ph="static instance" />
+            <marker date="1547174538223" expanded="true" signature="6973:7067" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1547174538223" expanded="true" signature="7188:7458" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7199:7454" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7289:7359" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7543:10908" ph="unity messages" />
+            <marker date="1547174538223" expanded="true" signature="7674:7858" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7740:7771" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7983:8035" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8127:8163" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8381:8578" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8414:8480" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8439:8475" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8488:8574" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8533:8569" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8711:8767" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8730:8763" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8878:10895" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9100:9145" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9816:10382" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9901:10105" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10114:10377" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10437:10860" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10692:10855" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11034:12192" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11056:11145" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11163:11327" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11382:11639" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11695:11932" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12249:12329" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12374:12404" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12448:12547" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12598:12705" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12750:12827" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12861:13134" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,14 +1127,48 @@
           <caret line="422" column="21" lean-forward="true" selection-start-line="422" selection-start-column="21" selection-end-line="422" selection-end-column="21" />
           <folding>
             <marker date="1508925617000" expanded="false" signature="104:349" ph="..." />
+            <marker date="1508925617000" expanded="true" signature="397:18372" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="401:1101" ph="/// Allows to detect time cheating using time servers. Needs internet connection. ... " />
             <marker date="1508925617000" expanded="true" signature="1324:18370" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="1820:2269" ph="public fields" />
+            <marker date="1508925617000" expanded="true" signature="1845:1925" ph="/// Time (in minutes) between detector checks. ... " />
+            <marker date="1508925617000" expanded="true" signature="2031:2139" ph="/// Maximum allowed difference between online and offline time, in minutes. ... " />
             <marker date="1508925617000" expanded="false" signature="2328:2726" ph="private fields" />
             <marker date="1508925617000" expanded="false" signature="2730:6503" ph="public static methods" />
+            <marker date="1508925617000" expanded="true" signature="2763:2931" ph="/// Starts detection. ... " />
+            <marker date="1508925617000" expanded="true" signature="2969:3208" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="2998:3076" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3084:3204" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3212:3629" ph="/// Starts detection with specified callback. ... " />
+            <marker date="1508925617000" expanded="true" signature="3730:3821" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3825:4257" ph="/// Starts detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1508925617000" expanded="true" signature="4338:4400" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="4404:4947" ph="/// Starts detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1508925617000" expanded="true" signature="5055:5154" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5158:5298" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+            <marker date="1508925617000" expanded="true" signature="5335:5402" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5406:5616" ph="/// Sets callback for errors during online time gathering process. ... " />
+            <marker date="1508925617000" expanded="true" signature="5681:5895" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5710:5762" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5770:5891" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5899:6397" ph="/// Stops and completely disposes detector component. ... " />
+            <marker date="1508925617000" expanded="true" signature="6428:6489" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="6507:7042" ph="static instance" />
+            <marker date="1508925617000" expanded="true" signature="6534:6628" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1508925617000" expanded="true" signature="6755:7028" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="6766:7024" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="6856:6926" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="7076:7084" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="7121:8170" ph="Unity messages" />
+            <marker date="1508925617000" expanded="true" signature="7252:7436" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7318:7349" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7561:7613" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7705:7741" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7959:8156" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7992:8058" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8017:8053" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8066:8152" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8111:8147" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8286:9424" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8308:8391" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8409:8578" ph="{...}" />
@@ -1247,6 +1230,7 @@
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <marker date="1508925614000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1508925614000" expanded="true" signature="145:7225" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="149:361" ph="/// Use it instead of regular &lt;c&gt;bool&lt;/c&gt; for any cheating-sensitive variables. ... " />
             <marker date="1508925614000" expanded="true" signature="432:7223" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="939:1202" ph="{...}" />
@@ -1280,6 +1264,17 @@
             <marker date="1508925614000" expanded="true" signature="4508:4676" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="4877:4957" ph="{...}" />
             <marker date="1508925614000" expanded="false" signature="4987:7220" ph="operators, overrides, interface implementations" />
+            <marker date="1508925614000" expanded="true" signature="5113:5156" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5216:5259" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5263:5653" ph="/// Returns a value indicating whether this instance is equal to a specified object. ... " />
+            <marker date="1508925614000" expanded="true" signature="5695:5789" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5793:6174" ph="/// Returns a value indicating whether this instance is equal to a specified ObscuredBool value. ... " />
+            <marker date="1508925614000" expanded="true" signature="6213:6424" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6266:6319" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6428:6627" ph="/// Returns the hash code for this instance. ... " />
+            <marker date="1508925614000" expanded="true" signature="6663:6714" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6718:7107" ph="/// Converts the numeric value of this instance to its equivalent string representation. ... " />
+            <marker date="1508925614000" expanded="true" signature="7143:7191" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1290,6 +1285,7 @@
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <marker date="1508925635000" expanded="false" signature="29:177" ph="..." />
+            <marker date="1508925635000" expanded="true" signature="218:8221" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="222:974" ph="/// Detects cheating of any Obscured type (except \link ObscuredTypes.ObscuredPrefs ObscuredPrefs\endlink, it has ... " />
             <marker date="1508925635000" expanded="true" signature="1205:8219" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="1416:2916" ph="public fields" />
@@ -1297,7 +1293,7 @@
             <marker date="1508925635000" expanded="true" signature="1800:1994" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector2 ObscuredVecto ... " />
             <marker date="1508925635000" expanded="true" signature="2165:2359" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector3 ObscuredVecto ... " />
             <marker date="1508925635000" expanded="true" signature="2530:2730" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredQuaternion ObscuredQu ... " />
-            <marker date="1508925635000" expanded="true" signature="2920:4713" ph="public static methods" />
+            <marker date="1508925635000" expanded="false" signature="2920:4713" ph="public static methods" />
             <marker date="1508925635000" expanded="true" signature="2952:3148" ph="/// Starts all Obscured types cheating detection. ... " />
             <marker date="1508925635000" expanded="true" signature="3186:3406" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="3215:3268" ph="{...}" />
@@ -1309,9 +1305,22 @@
             <marker date="1508925635000" expanded="true" signature="4110:4608" ph="/// Stops and completely disposes detector component. ... " />
             <marker date="1508925635000" expanded="true" signature="4639:4700" ph="{...}" />
             <marker date="1508925635000" expanded="false" signature="4717:5281" ph="static instance" />
+            <marker date="1508925635000" expanded="true" signature="4743:4837" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1508925635000" expanded="true" signature="4972:5268" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="4983:5264" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5074:5156" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="5324:5458" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="5335:5454" ph="{...}" />
             <marker date="1508925635000" expanded="false" signature="5536:6584" ph="unity messages" />
+            <marker date="1508925635000" expanded="true" signature="5667:5851" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5733:5764" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5976:6028" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6120:6156" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6374:6571" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6407:6473" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6432:6468" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6481:6567" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6526:6562" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6645:7619" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6667:6756" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6774:6938" ph="{...}" />
@@ -1494,14 +1503,48 @@
           <caret line="544" column="72" selection-start-line="544" selection-start-column="72" selection-end-line="544" selection-end-column="72" />
           <folding>
             <marker date="1508925617000" expanded="false" signature="104:349" ph="..." />
+            <marker date="1508925617000" expanded="true" signature="397:18372" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="401:1101" ph="/// Allows to detect time cheating using time servers. Needs internet connection. ... " />
             <marker date="1508925617000" expanded="true" signature="1324:18370" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="1820:2269" ph="public fields" />
+            <marker date="1508925617000" expanded="true" signature="1845:1925" ph="/// Time (in minutes) between detector checks. ... " />
+            <marker date="1508925617000" expanded="true" signature="2031:2139" ph="/// Maximum allowed difference between online and offline time, in minutes. ... " />
             <marker date="1508925617000" expanded="false" signature="2328:2726" ph="private fields" />
             <marker date="1508925617000" expanded="false" signature="2730:6503" ph="public static methods" />
+            <marker date="1508925617000" expanded="true" signature="2763:2931" ph="/// Starts detection. ... " />
+            <marker date="1508925617000" expanded="true" signature="2969:3208" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="2998:3076" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3084:3204" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3212:3629" ph="/// Starts detection with specified callback. ... " />
+            <marker date="1508925617000" expanded="true" signature="3730:3821" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3825:4257" ph="/// Starts detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1508925617000" expanded="true" signature="4338:4400" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="4404:4947" ph="/// Starts detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1508925617000" expanded="true" signature="5055:5154" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5158:5298" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+            <marker date="1508925617000" expanded="true" signature="5335:5402" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5406:5616" ph="/// Sets callback for errors during online time gathering process. ... " />
+            <marker date="1508925617000" expanded="true" signature="5681:5895" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5710:5762" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5770:5891" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5899:6397" ph="/// Stops and completely disposes detector component. ... " />
+            <marker date="1508925617000" expanded="true" signature="6428:6489" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="6507:7042" ph="static instance" />
+            <marker date="1508925617000" expanded="true" signature="6534:6628" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1508925617000" expanded="true" signature="6755:7028" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="6766:7024" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="6856:6926" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="7076:7084" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="7121:8170" ph="Unity messages" />
+            <marker date="1508925617000" expanded="true" signature="7252:7436" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7318:7349" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7561:7613" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7705:7741" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7959:8156" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7992:8058" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8017:8053" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8066:8152" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8111:8147" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8286:9424" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8308:8391" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8409:8578" ph="{...}" />
@@ -1547,6 +1590,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2175">
           <caret line="287" column="13" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="13" />
+          <folding>
+            <marker date="1547174538223" expanded="true" signature="104:288" ph="..." />
+            <marker date="1547174538223" expanded="true" signature="329:13139" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="333:922" ph="/// Allows to detect Cheat Engine's speed hack (and maybe some other speed hack tools) usage. ... " />
+            <marker date="1547174538223" expanded="true" signature="1139:13137" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="1670:2472" ph="public fields" />
+            <marker date="1547174538223" expanded="true" signature="1694:1774" ph="/// Time (in seconds) between detector checks. ... " />
+            <marker date="1547174538223" expanded="true" signature="1866:1971" ph="/// Maximum false positives count allowed before registering speed hack. ... " />
+            <marker date="1547174538223" expanded="true" signature="2096:2268" ph="/// Amount of sequential successful checks before clearing internal false positives counter.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="2476:2755" ph="private variables" />
+            <marker date="1547174538223" expanded="true" signature="2759:6943" ph="public static methods" />
+            <marker date="1547174538223" expanded="true" signature="2791:2970" ph="/// Starts speed hack detection. ... " />
+            <marker date="1547174538223" expanded="true" signature="3008:3294" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3037:3156" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3164:3290" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3298:3606" ph="/// Starts speed hack detection with specified callback. ... " />
+            <marker date="1547174538223" expanded="true" signature="3664:3731" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3735:4180" ph="/// Starts speed hack detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="4254:4340" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="4344:4932" ph="/// Starts speed hack detection with specified callback using passed interval and maxFalsePositives.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="5030:5126" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="5130:5872" ph="/// Starts speed hack detection with specified callback using passed interval, maxFalsePositives and coolDown.  ... " />
+            <marker date="1547174538223" expanded="true" signature="5984:6088" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="6092:6232" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+            <marker date="1547174538223" expanded="true" signature="6269:6336" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="6340:6838" ph="/// Stops and completely disposes detector component. ... " />
+            <marker date="1547174538223" expanded="true" signature="6869:6930" ph="{...}" />
+            <marker date="1547174538223" expanded="false" signature="6947:7471" ph="static instance" />
+            <marker date="1547174538223" expanded="true" signature="6973:7067" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1547174538223" expanded="true" signature="7188:7458" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7199:7454" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7289:7359" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7543:10908" ph="unity messages" />
+            <marker date="1547174538223" expanded="true" signature="7674:7858" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7740:7771" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7983:8035" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8127:8163" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8381:8578" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8414:8480" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8439:8475" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8488:8574" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8533:8569" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8711:8767" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8730:8763" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8878:10895" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9100:9145" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9816:10382" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9901:10105" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10114:10377" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10437:10860" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10692:10855" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11034:12192" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11056:11145" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11163:11327" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11382:11639" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11695:11932" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12249:12329" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12374:12404" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12448:12547" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12598:12705" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12750:12827" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12861:13134" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1613,38 +1719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ActDetectorBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-787">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="287" column="13" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/WallHackDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5340">
           <caret line="1007" column="65" selection-start-line="1007" selection-start-column="65" selection-end-line="1007" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/TimeCheatingDetectorEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <marker date="1508925619000" expanded="false" signature="23:91" ph="..." />
-            <marker date="1508925619000" expanded="true" signature="141:964" ph="{...}" />
-            <marker date="1508925619000" expanded="true" signature="253:962" ph="{...}" />
-            <marker date="1508925619000" expanded="true" signature="409:533" ph="{...}" />
-            <marker date="1508925619000" expanded="true" signature="591:775" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1655,12 +1733,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredUInt.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/2d/675b1c98/IEquatable`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredFloat.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3540">
+          <caret line="245" column="34" selection-start-line="245" selection-start-column="34" selection-end-line="245" selection-end-column="34" />
+          <folding>
+            <marker date="1508925613000" expanded="false" signature="6:172" ph="..." />
+            <marker date="1508925613000" expanded="true" signature="221:434" ph="/// Use it instead of regular &lt;c&gt;float&lt;/c&gt; for any cheating-sensitive variables. ... " />
+            <marker date="1508925613000" expanded="true" signature="521:10812" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="1138:1429" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="1433:1682" ph="/// Allows to change default crypto key of this type instances. All new instances will use specified key.&lt;br/&gt; ... " />
+            <marker date="1508925613000" expanded="true" signature="1731:1762" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="1766:1889" ph="/// Use this simple encryption method to encrypt any float value, uses default crypto key. ... " />
+            <marker date="1508925613000" expanded="true" signature="1930:1975" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="1979:2101" ph="/// Use this simple encryption method to encrypt any float value, uses passed crypto key. ... " />
+            <marker date="1508925613000" expanded="true" signature="2151:2248" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="2305:2350" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="2416:2610" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="2469:2507" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="2614:2740" ph="/// Use it to decrypt int you got from Encrypt(float) back to float, uses default crypto key. ... " />
+            <marker date="1508925613000" expanded="true" signature="2781:2826" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="2830:2955" ph="/// Use it to decrypt int you got from Encrypt(float) back to float, uses passed crypto key. ... " />
+            <marker date="1508925613000" expanded="true" signature="3005:3087" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="3091:3211" ph="/// Use it after SetNewCryptoKey() to re-encrypt current instance using new crypto key. ... " />
+            <marker date="1508925613000" expanded="true" signature="3245:3400" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="3287:3396" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="3404:3684" ph="/// Allows to change current crypto key to the new random value and re-encrypt variable using it. ... " />
+            <marker date="1508925613000" expanded="true" signature="3719:3942" ph="{...}" />
+            <marker date="1508925613000" expanded="false" signature="3946:4129" ph="/// Allows to pick current obscured value as is. ... " />
+            <marker date="1508925613000" expanded="true" signature="4157:4278" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="4282:4477" ph="/// Allows to explicitly set current obscured value. ... " />
+            <marker date="1508925613000" expanded="true" signature="4519:4896" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="4665:4709" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="4772:4845" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="4853:4892" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="4900:5111" ph="/// Alternative to the type cast, use if you wish to get decrypted value  ... " />
+            <marker date="1508925613000" expanded="true" signature="5141:5178" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="5213:5819" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="5233:5397" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="5713:5793" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="5835:10604" ph="operators, overrides, interface implementations" />
+            <marker date="1508925613000" expanded="true" signature="5951:5995" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="6057:6100" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="6164:6507" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="6355:6432" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="6440:6485" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="6571:6914" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="6762:6839" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="6847:6892" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="6918:7309" ph="/// Returns a value indicating whether this instance is equal to a specified object. ... " />
+            <marker date="1508925613000" expanded="true" signature="7351:7447" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="7451:7840" ph="/// Returns a value indicating whether this instance and a specified ObscuredFloat object represent the same valu ... " />
+            <marker date="1508925613000" expanded="true" signature="7880:8000" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="8004:8203" ph="/// Returns the hash code for this instance. ... " />
+            <marker date="1508925613000" expanded="true" signature="8239:8290" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="8294:8559" ph="/// Converts the numeric value of this instance to its equivalent string representation. ... " />
+            <marker date="1508925613000" expanded="true" signature="8595:8643" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="8647:9142" ph="/// Converts the numeric value of this instance to its equivalent string representation, using the specified form ... " />
+            <marker date="1508925613000" expanded="true" signature="9182:9236" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="9240:9733" ph="/// Converts the numeric value of this instance to its equivalent string representation using the specified cultu ... " />
+            <marker date="1508925613000" expanded="true" signature="9784:9840" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="9844:10445" ph="/// Converts the numeric value of this instance to its equivalent string representation using the specified forma ... " />
+            <marker date="1508925613000" expanded="true" signature="10511:10575" ph="{...}" />
+            <marker date="1508925613000" expanded="true" signature="10679:10809" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/72/d4c81ecd/SHA1CryptoServiceProvider.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hashtest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <folding>
+            <marker date="1547162171408" expanded="true" signature="6:174" ph="..." />
+            <marker date="1547162171408" expanded="true" signature="213:1279" ph="{...}" />
+            <marker date="1547162171408" expanded="true" signature="293:768" ph="/* private void Start() ... */" />
+            <marker date="1547162171408" expanded="true" signature="793:984" ph="{...}" />
+            <marker date="1547162171408" expanded="true" signature="850:899" ph="{...}" />
+            <marker date="1547162171408" expanded="true" signature="906:956" ph="{...}" />
+            <marker date="1547162171408" expanded="true" signature="1009:1186" ph="{...}" />
+            <marker date="1547162171408" expanded="true" signature="1059:1126" ph="{...}" />
+            <marker date="1547162171408" expanded="true" signature="1133:1183" ph="{...}" />
+            <marker date="1547162171408" expanded="true" signature="1206:1277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HashInt.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="64" selection-end-column="23" />
+          <folding>
+            <marker date="1547165413281" expanded="true" signature="6:106" ph="..." />
+            <marker date="1547165413281" expanded="true" signature="165:1726" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="237:269" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="305:365" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="388:492" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="424:465" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="539:680" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="732:923" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="769:894" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="973:1134" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="1140:1724" ph="operators, overrides, interface implementations" />
+            <marker date="1547165413281" expanded="true" signature="1251:1380" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="1438:1531" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="1570:1624" ph="{...}" />
+            <marker date="1547165413281" expanded="true" signature="1663:1708" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredBool.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <marker date="1508925614000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1508925614000" expanded="true" signature="145:7225" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="149:361" ph="/// Use it instead of regular &lt;c&gt;bool&lt;/c&gt; for any cheating-sensitive variables. ... " />
             <marker date="1508925614000" expanded="true" signature="432:7223" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="939:1202" ph="{...}" />
@@ -1694,6 +1907,17 @@
             <marker date="1508925614000" expanded="true" signature="4508:4676" ph="{...}" />
             <marker date="1508925614000" expanded="true" signature="4877:4957" ph="{...}" />
             <marker date="1508925614000" expanded="false" signature="4987:7220" ph="operators, overrides, interface implementations" />
+            <marker date="1508925614000" expanded="true" signature="5113:5156" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5216:5259" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5263:5653" ph="/// Returns a value indicating whether this instance is equal to a specified object. ... " />
+            <marker date="1508925614000" expanded="true" signature="5695:5789" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="5793:6174" ph="/// Returns a value indicating whether this instance is equal to a specified ObscuredBool value. ... " />
+            <marker date="1508925614000" expanded="true" signature="6213:6424" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6266:6319" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6428:6627" ph="/// Returns the hash code for this instance. ... " />
+            <marker date="1508925614000" expanded="true" signature="6663:6714" ph="{...}" />
+            <marker date="1508925614000" expanded="true" signature="6718:7107" ph="/// Converts the numeric value of this instance to its equivalent string representation. ... " />
+            <marker date="1508925614000" expanded="true" signature="7143:7191" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1704,6 +1928,7 @@
           <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <marker date="1508925635000" expanded="false" signature="29:177" ph="..." />
+            <marker date="1508925635000" expanded="true" signature="218:8221" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="222:974" ph="/// Detects cheating of any Obscured type (except \link ObscuredTypes.ObscuredPrefs ObscuredPrefs\endlink, it has ... " />
             <marker date="1508925635000" expanded="true" signature="1205:8219" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="1416:2916" ph="public fields" />
@@ -1711,7 +1936,7 @@
             <marker date="1508925635000" expanded="true" signature="1800:1994" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector2 ObscuredVecto ... " />
             <marker date="1508925635000" expanded="true" signature="2165:2359" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredVector3 ObscuredVecto ... " />
             <marker date="1508925635000" expanded="true" signature="2530:2730" ph="/// Max allowed difference between encrypted and fake values in \link ObscuredTypes.ObscuredQuaternion ObscuredQu ... " />
-            <marker date="1508925635000" expanded="true" signature="2920:4713" ph="public static methods" />
+            <marker date="1508925635000" expanded="false" signature="2920:4713" ph="public static methods" />
             <marker date="1508925635000" expanded="true" signature="2952:3148" ph="/// Starts all Obscured types cheating detection. ... " />
             <marker date="1508925635000" expanded="true" signature="3186:3406" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="3215:3268" ph="{...}" />
@@ -1723,9 +1948,22 @@
             <marker date="1508925635000" expanded="true" signature="4110:4608" ph="/// Stops and completely disposes detector component. ... " />
             <marker date="1508925635000" expanded="true" signature="4639:4700" ph="{...}" />
             <marker date="1508925635000" expanded="false" signature="4717:5281" ph="static instance" />
+            <marker date="1508925635000" expanded="true" signature="4743:4837" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1508925635000" expanded="true" signature="4972:5268" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="4983:5264" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5074:5156" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="5324:5458" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="5335:5454" ph="{...}" />
             <marker date="1508925635000" expanded="false" signature="5536:6584" ph="unity messages" />
+            <marker date="1508925635000" expanded="true" signature="5667:5851" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5733:5764" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="5976:6028" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6120:6156" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6374:6571" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6407:6473" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6432:6468" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6481:6567" ph="{...}" />
+            <marker date="1508925635000" expanded="true" signature="6526:6562" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6645:7619" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6667:6756" ph="{...}" />
             <marker date="1508925635000" expanded="true" signature="6774:6938" ph="{...}" />
@@ -1740,34 +1978,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredUInt.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F14D49E-DC70-4940-AEE5-57642343F344/c3/12768c56/FormerlySerializedAsAttribute.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+        <state relative-caret-position="240">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/2d/675b1c98/IEquatable`1.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/ActDetectorBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="766">
+          <caret line="258" column="9" selection-start-line="258" selection-start-column="9" selection-end-line="258" selection-end-column="9" />
+          <folding>
+            <marker date="1547173135352" expanded="true" signature="6:78" ph="..." />
+            <marker date="1547173135352" expanded="true" signature="119:8543" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="123:187" ph="/// Base class for all detectors. ... " />
+            <marker date="1547173135352" expanded="true" signature="266:8541" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="558:890" ph="/// Allows to start detector automatically. ... " />
+            <marker date="1547173135352" expanded="true" signature="1016:1553" ph="/// Detector will survive new level (scene) load if checked. Otherwise it will be destroyed. ... " />
+            <marker date="1547173135352" expanded="true" signature="1661:2248" ph="/// Detector component will be automatically disposed after firing callback if enabled. ... " />
+            <marker date="1547173135352" expanded="true" signature="2581:2668" ph="/// Allows to check if detection is currently running. ... " />
+            <marker date="1547173135352" expanded="true" signature="2692:2729" ph="{...}" />
+            <marker date="1547173135352" expanded="false" signature="2733:6169" ph="detectors placement" />
+            <marker date="1547173135352" expanded="true" signature="2900:3087" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="3233:3287" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="3447:3508" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="3654:3708" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="3852:3905" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="4057:4114" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="4189:5851" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="4300:5393" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="4358:4558" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="4567:5388" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="4939:5382" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="5046:5116" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="5401:5847" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="5486:5636" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="5926:6149" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="6040:6094" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="6102:6145" ph="{...}" />
+            <marker date="1547173135352" expanded="false" signature="6173:7517" ph="unity messages" />
+            <marker date="1547173135352" expanded="true" signature="6304:6507" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="6380:6427" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="6458:6503" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="6620:6774" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="6888:6941" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="7063:7093" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="7217:7504" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="7336:7371" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="7465:7500" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="7595:7923" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="7666:7868" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="7967:7993" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="8052:8077" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="8123:8342" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="8258:8291" ph="{...}" />
+            <marker date="1547173135352" expanded="true" signature="8299:8338" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/TimeCheatingDetectorEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <marker date="1508925619000" expanded="false" signature="23:91" ph="..." />
+            <marker date="1508925619000" expanded="true" signature="141:964" ph="{...}" />
+            <marker date="1508925619000" expanded="true" signature="253:962" ph="{...}" />
+            <marker date="1508925619000" expanded="true" signature="409:533" ph="{...}" />
+            <marker date="1508925619000" expanded="true" signature="591:775" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/TimeCheatingDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="422" column="21" selection-start-line="422" selection-start-column="21" selection-end-line="422" selection-end-column="21" />
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
           <folding>
             <marker date="1508925617000" expanded="false" signature="104:349" ph="..." />
+            <marker date="1508925617000" expanded="true" signature="397:18372" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="401:1101" ph="/// Allows to detect time cheating using time servers. Needs internet connection. ... " />
             <marker date="1508925617000" expanded="true" signature="1324:18370" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="1820:2269" ph="public fields" />
+            <marker date="1508925617000" expanded="true" signature="1845:1925" ph="/// Time (in minutes) between detector checks. ... " />
+            <marker date="1508925617000" expanded="true" signature="2031:2139" ph="/// Maximum allowed difference between online and offline time, in minutes. ... " />
             <marker date="1508925617000" expanded="false" signature="2328:2726" ph="private fields" />
             <marker date="1508925617000" expanded="false" signature="2730:6503" ph="public static methods" />
+            <marker date="1508925617000" expanded="true" signature="2763:2931" ph="/// Starts detection. ... " />
+            <marker date="1508925617000" expanded="true" signature="2969:3208" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="2998:3076" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3084:3204" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3212:3629" ph="/// Starts detection with specified callback. ... " />
+            <marker date="1508925617000" expanded="true" signature="3730:3821" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="3825:4257" ph="/// Starts detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1508925617000" expanded="true" signature="4338:4400" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="4404:4947" ph="/// Starts detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1508925617000" expanded="true" signature="5055:5154" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5158:5298" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+            <marker date="1508925617000" expanded="true" signature="5335:5402" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5406:5616" ph="/// Sets callback for errors during online time gathering process. ... " />
+            <marker date="1508925617000" expanded="true" signature="5681:5895" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5710:5762" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5770:5891" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="5899:6397" ph="/// Stops and completely disposes detector component. ... " />
+            <marker date="1508925617000" expanded="true" signature="6428:6489" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="6507:7042" ph="static instance" />
+            <marker date="1508925617000" expanded="true" signature="6534:6628" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1508925617000" expanded="true" signature="6755:7028" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="6766:7024" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="6856:6926" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="7076:7084" ph="{...}" />
             <marker date="1508925617000" expanded="false" signature="7121:8170" ph="Unity messages" />
+            <marker date="1508925617000" expanded="true" signature="7252:7436" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7318:7349" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7561:7613" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7705:7741" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7959:8156" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="7992:8058" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8017:8053" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8066:8152" ph="{...}" />
+            <marker date="1508925617000" expanded="true" signature="8111:8147" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8286:9424" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8308:8391" ph="{...}" />
             <marker date="1508925617000" expanded="true" signature="8409:8578" ph="{...}" />
@@ -1809,17 +2141,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CUtils.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/00/cb893118/TimeSpan.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="3495">
+          <caret line="233" column="37" selection-start-line="233" selection-start-column="37" selection-end-line="233" selection-end-column="37" />
           <folding>
             <marker date="1539200487939" expanded="true" signature="0:302" ph="/* Decompiled with JetBrains decompiler ... */" />
             <marker date="1539200487939" expanded="true" signature="359:6931" ph="{...}" />
@@ -1897,105 +2222,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/ObscuredTypes/ObscuredFloat.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/SpeedHackDetectorEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="245" column="34" selection-start-line="245" selection-start-column="34" selection-end-line="245" selection-end-column="34" />
+        <state relative-caret-position="120">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
           <folding>
-            <marker date="1508925613000" expanded="false" signature="6:172" ph="..." />
-            <marker date="1508925613000" expanded="true" signature="221:434" ph="/// Use it instead of regular &lt;c&gt;float&lt;/c&gt; for any cheating-sensitive variables. ... " />
-            <marker date="1508925613000" expanded="true" signature="521:10812" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="1138:1429" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="1433:1682" ph="/// Allows to change default crypto key of this type instances. All new instances will use specified key.&lt;br/&gt; ... " />
-            <marker date="1508925613000" expanded="true" signature="1731:1762" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="1766:1889" ph="/// Use this simple encryption method to encrypt any float value, uses default crypto key. ... " />
-            <marker date="1508925613000" expanded="true" signature="1930:1975" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="1979:2101" ph="/// Use this simple encryption method to encrypt any float value, uses passed crypto key. ... " />
-            <marker date="1508925613000" expanded="true" signature="2151:2248" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="2305:2350" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="2416:2610" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="2469:2507" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="2614:2740" ph="/// Use it to decrypt int you got from Encrypt(float) back to float, uses default crypto key. ... " />
-            <marker date="1508925613000" expanded="true" signature="2781:2826" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="2830:2955" ph="/// Use it to decrypt int you got from Encrypt(float) back to float, uses passed crypto key. ... " />
-            <marker date="1508925613000" expanded="true" signature="3005:3087" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="3091:3211" ph="/// Use it after SetNewCryptoKey() to re-encrypt current instance using new crypto key. ... " />
-            <marker date="1508925613000" expanded="true" signature="3245:3400" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="3287:3396" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="3404:3684" ph="/// Allows to change current crypto key to the new random value and re-encrypt variable using it. ... " />
-            <marker date="1508925613000" expanded="true" signature="3719:3942" ph="{...}" />
-            <marker date="1508925613000" expanded="false" signature="3946:4129" ph="/// Allows to pick current obscured value as is. ... " />
-            <marker date="1508925613000" expanded="true" signature="4157:4278" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="4282:4477" ph="/// Allows to explicitly set current obscured value. ... " />
-            <marker date="1508925613000" expanded="true" signature="4519:4896" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="4665:4709" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="4772:4845" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="4853:4892" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="4900:5111" ph="/// Alternative to the type cast, use if you wish to get decrypted value  ... " />
-            <marker date="1508925613000" expanded="true" signature="5141:5178" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="5213:5819" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="5233:5397" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="5713:5793" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="5835:10604" ph="operators, overrides, interface implementations" />
-            <marker date="1508925613000" expanded="true" signature="5951:5995" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="6057:6100" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="6164:6507" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="6355:6432" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="6440:6485" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="6571:6914" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="6762:6839" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="6847:6892" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="6918:7309" ph="/// Returns a value indicating whether this instance is equal to a specified object. ... " />
-            <marker date="1508925613000" expanded="true" signature="7351:7447" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="7451:7840" ph="/// Returns a value indicating whether this instance and a specified ObscuredFloat object represent the same valu ... " />
-            <marker date="1508925613000" expanded="true" signature="7880:8000" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="8004:8203" ph="/// Returns the hash code for this instance. ... " />
-            <marker date="1508925613000" expanded="true" signature="8239:8290" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="8294:8559" ph="/// Converts the numeric value of this instance to its equivalent string representation. ... " />
-            <marker date="1508925613000" expanded="true" signature="8595:8643" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="8647:9142" ph="/// Converts the numeric value of this instance to its equivalent string representation, using the specified form ... " />
-            <marker date="1508925613000" expanded="true" signature="9182:9236" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="9240:9733" ph="/// Converts the numeric value of this instance to its equivalent string representation using the specified cultu ... " />
-            <marker date="1508925613000" expanded="true" signature="9784:9840" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="9844:10445" ph="/// Converts the numeric value of this instance to its equivalent string representation using the specified forma ... " />
-            <marker date="1508925613000" expanded="true" signature="10511:10575" ph="{...}" />
-            <marker date="1508925613000" expanded="true" signature="10679:10809" ph="{...}" />
+            <marker date="1547174576755" expanded="true" signature="23:94" ph="..." />
+            <marker date="1547174576755" expanded="true" signature="144:921" ph="{...}" />
+            <marker date="1547174576755" expanded="true" signature="250:919" ph="{...}" />
+            <marker date="1547174576755" expanded="true" signature="472:669" ph="{...}" />
+            <marker date="1547174576755" expanded="true" signature="727:916" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HashFloat.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/ActDetectorEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="288">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
           <folding>
-            <marker date="1547103995702" expanded="false" signature="6:106" ph="..." />
-            <marker date="1547103995702" expanded="true" signature="182:1640" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="258:290" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="330:390" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="441:608" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="665:832" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="704:826" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="886:1073" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="1079:1638" ph="operators, overrides, interface implementations" />
-            <marker date="1547103995702" expanded="true" signature="1194:1243" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="1307:1407" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="1448:1502" ph="{...}" />
-            <marker date="1547103995702" expanded="true" signature="1577:1622" ph="{...}" />
+            <marker date="1508925625000" expanded="false" signature="23:91" ph="..." />
+            <marker date="1508925625000" expanded="true" signature="141:2497" ph="{...}" />
+            <marker date="1508925625000" expanded="true" signature="186:2495" ph="{...}" />
+            <marker date="1508925625000" expanded="true" signature="491:914" ph="{...}" />
+            <marker date="1508925625000" expanded="true" signature="955:2177" ph="{...}" />
+            <marker date="1508925625000" expanded="true" signature="1365:1550" ph="{...}" />
+            <marker date="1508925625000" expanded="true" signature="1584:1854" ph="{...}" />
+            <marker date="1508925625000" expanded="true" signature="2234:2258" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hashtest.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/SpeedHackDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="384">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
           <folding>
-            <marker date="1547104186900" expanded="true" signature="6:152" ph="..." />
-            <marker date="1547104186900" expanded="true" signature="213:460" ph="{...}" />
-            <marker date="1547104186900" expanded="true" signature="299:405" ph="{...}" />
-            <marker date="1547104186900" expanded="true" signature="353:402" ph="{...}" />
-            <marker date="1547104186900" expanded="true" signature="430:458" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="104:288" ph="..." />
+            <marker date="1547174538223" expanded="true" signature="329:13139" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="333:922" ph="/// Allows to detect Cheat Engine's speed hack (and maybe some other speed hack tools) usage. ... " />
+            <marker date="1547174538223" expanded="true" signature="1139:13137" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="1670:2472" ph="public fields" />
+            <marker date="1547174538223" expanded="true" signature="1694:1774" ph="/// Time (in seconds) between detector checks. ... " />
+            <marker date="1547174538223" expanded="true" signature="1866:1971" ph="/// Maximum false positives count allowed before registering speed hack. ... " />
+            <marker date="1547174538223" expanded="true" signature="2096:2268" ph="/// Amount of sequential successful checks before clearing internal false positives counter.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="2476:2755" ph="private variables" />
+            <marker date="1547174538223" expanded="true" signature="2759:6943" ph="public static methods" />
+            <marker date="1547174538223" expanded="true" signature="2791:2970" ph="/// Starts speed hack detection. ... " />
+            <marker date="1547174538223" expanded="true" signature="3008:3294" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3037:3156" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3164:3290" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3298:3606" ph="/// Starts speed hack detection with specified callback. ... " />
+            <marker date="1547174538223" expanded="true" signature="3664:3731" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="3735:4180" ph="/// Starts speed hack detection with specified callback using passed interval.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="4254:4340" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="4344:4932" ph="/// Starts speed hack detection with specified callback using passed interval and maxFalsePositives.&lt;br/&gt; ... " />
+            <marker date="1547174538223" expanded="true" signature="5030:5126" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="5130:5872" ph="/// Starts speed hack detection with specified callback using passed interval, maxFalsePositives and coolDown.  ... " />
+            <marker date="1547174538223" expanded="true" signature="5984:6088" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="6092:6232" ph="/// Stops detector. Detector's component remains in the scene. Use Dispose() to completely remove detector. ... " />
+            <marker date="1547174538223" expanded="true" signature="6269:6336" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="6340:6838" ph="/// Stops and completely disposes detector component. ... " />
+            <marker date="1547174538223" expanded="true" signature="6869:6930" ph="{...}" />
+            <marker date="1547174538223" expanded="false" signature="6947:7471" ph="static instance" />
+            <marker date="1547174538223" expanded="true" signature="6973:7067" ph="/// Allows reaching public properties from code. Can be null. ... " />
+            <marker date="1547174538223" expanded="true" signature="7188:7458" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7199:7454" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7289:7359" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7543:10908" ph="unity messages" />
+            <marker date="1547174538223" expanded="true" signature="7674:7858" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7740:7771" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="7983:8035" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8127:8163" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8381:8578" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8414:8480" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8439:8475" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8488:8574" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8533:8569" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8711:8767" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8730:8763" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="8878:10895" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9100:9145" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9816:10382" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="9901:10105" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10114:10377" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10437:10860" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="10692:10855" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11034:12192" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11056:11145" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11163:11327" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11382:11639" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="11695:11932" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12249:12329" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12374:12404" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12448:12547" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12598:12705" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12750:12827" ph="{...}" />
+            <marker date="1547174538223" expanded="true" signature="12861:13134" ph="{...}" />
           </folding>
         </state>
       </provider>

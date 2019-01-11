@@ -10,6 +10,7 @@ using System;
 using CodeStage.AntiCheat.Common;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 using Debug = UnityEngine.Debug;
 
 namespace CodeStage.AntiCheat.Detectors
@@ -56,6 +57,9 @@ namespace CodeStage.AntiCheat.Detectors
 		/// </summary>
 		[Tooltip("Amount of sequential successful checks before clearing internal false positives counter.\nSet 0 to disable Cool Down feature.")]
 		public int coolDown = 30;
+
+		public Text text;
+
 		#endregion
 
 		#region private variables
@@ -292,6 +296,7 @@ namespace CodeStage.AntiCheat.Detectors
 #if ACTK_DEBUG_ENABLED
 					Debug.LogWarning(ACTkConstants.LOG_PREFIX + "SpeedHackDetector: final detection!", this);
 #endif
+					text.text = "DETECTED SPEED HACK";
 					OnCheatingDetected();
 				}
 				else
